@@ -1,0 +1,67 @@
+2025-03-16 19:19:55,579 -INFO-calling kafka connection method
+2025-03-16 19:19:55,579 -INFO-Defining confluent configuration
+2025-03-16 19:19:55,579 -INFO-defing Schema Configuration
+2025-03-16 19:59:00,343 -INFO-calling kafka connection method
+2025-03-16 19:59:00,343 -INFO-Defining confluent configuration
+2025-03-16 19:59:00,343 -INFO-defing Schema Configuration
+2025-03-16 19:59:47,671 -INFO-calling kafka connection method
+2025-03-16 19:59:47,671 -INFO-Defining confluent configuration
+2025-03-16 19:59:47,671 -INFO-defing Schema Configuration
+2025-03-16 20:00:12,673 -INFO-calling kafka connection method
+2025-03-16 20:00:12,673 -INFO-Defining confluent configuration
+2025-03-16 20:00:12,673 -INFO-defing Schema Configuration
+2025-03-16 20:00:14,552 -ERROR-Unable to fetch data from api 'list' object has no attribute 'items'
+2025-03-16 20:01:08,569 -INFO-calling kafka connection method
+2025-03-16 20:01:08,569 -INFO-Defining confluent configuration
+2025-03-16 20:01:08,569 -INFO-defing Schema Configuration
+2025-03-16 20:01:12,521 -ERROR-Unable to fetch data from api 'list' object has no attribute 'items'
+2025-03-16 20:01:41,617 -INFO-calling kafka connection method
+2025-03-16 20:01:41,617 -INFO-Defining confluent configuration
+2025-03-16 20:01:41,617 -INFO-defing Schema Configuration
+2025-03-16 20:10:59,820 -INFO-calling kafka connection method
+2025-03-16 20:10:59,820 -INFO-Defining confluent configuration
+2025-03-16 20:10:59,820 -INFO-defing Schema Configuration
+2025-03-16 20:11:02,102 -ERROR-Unable to fetch data from api 'NoneType' object has no attribute 'push'
+2025-03-16 20:12:00,470 -INFO-calling kafka connection method
+2025-03-16 20:12:00,470 -INFO-Defining confluent configuration
+2025-03-16 20:12:00,470 -INFO-defing Schema Configuration
+2025-03-16 20:12:02,258 -ERROR-Unable to fetch data from api 'NoneType' object has no attribute 'send'
+2025-03-16 20:15:16,233 -INFO-calling kafka connection method
+2025-03-16 20:15:16,234 -INFO-Defining confluent configuration
+2025-03-16 20:15:16,234 -INFO-defing Schema Configuration
+2025-03-16 20:15:18,331 -ERROR-Unable to fetch data from api 'NoneType' object has no attribute 'send'
+2025-03-16 20:16:18,032 -INFO-calling kafka connection method
+2025-03-16 20:16:18,032 -INFO-Defining confluent configuration
+2025-03-16 20:16:18,032 -INFO-defing Schema Configuration
+2025-03-16 20:16:23,036 -ERROR-Unable to fetch data from api 'NoneType' object has no attribute 'send'
+2025-03-16 20:19:51,423 - INFO - Calling Kafka connection method
+2025-03-16 20:19:51,423 - INFO - Defining Confluent configuration
+2025-03-16 20:19:51,423 - INFO - Creating Kafka producer
+2025-03-16 20:19:51,443 - INFO - Kafka producer successfully created
+2025-03-16 20:19:51,443 - INFO - Fetching data from API
+2025-03-16 20:19:56,804 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:56,804 - INFO - Sent data to Kafka: key=1, value={"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}
+2025-03-16 20:19:57,067 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:57,067 - INFO - Sent data to Kafka: key=2, value={"id": "2", "name": "Apple iPhone 12 Mini, 256GB, Blue", "data": null}
+2025-03-16 20:19:57,325 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:57,325 - INFO - Sent data to Kafka: key=3, value={"id": "3", "name": "Apple iPhone 12 Pro Max", "data": {"color": "Cloudy White", "capacity GB": 512}}
+2025-03-16 20:19:57,587 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:57,587 - INFO - Sent data to Kafka: key=4, value={"id": "4", "name": "Apple iPhone 11, 64GB", "data": {"price": 389.99, "color": "Purple"}}
+2025-03-16 20:19:57,848 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:57,848 - INFO - Sent data to Kafka: key=5, value={"id": "5", "name": "Samsung Galaxy Z Fold2", "data": {"price": 689.99, "color": "Brown"}}
+2025-03-16 20:19:58,106 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:58,107 - INFO - Sent data to Kafka: key=6, value={"id": "6", "name": "Apple AirPods", "data": {"generation": "3rd", "price": 120}}
+2025-03-16 20:19:58,665 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:58,665 - INFO - Sent data to Kafka: key=7, value={"id": "7", "name": "Apple MacBook Pro 16", "data": {"year": 2019, "price": 1849.99, "CPU model": "Intel Core i9", "Hard disk size": "1 TB"}}
+2025-03-16 20:19:58,954 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:58,954 - INFO - Sent data to Kafka: key=8, value={"id": "8", "name": "Apple Watch Series 8", "data": {"Strap Colour": "Elderberry", "Case Size": "41mm"}}
+2025-03-16 20:19:59,514 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:59,515 - INFO - Sent data to Kafka: key=9, value={"id": "9", "name": "Beats Studio3 Wireless", "data": {"Color": "Red", "Description": "High-performance wireless noise cancelling headphones"}}
+2025-03-16 20:19:59,775 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:19:59,775 - INFO - Sent data to Kafka: key=10, value={"id": "10", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "64 GB", "Screen size": 7.9}}
+2025-03-16 20:20:00,037 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:20:00,037 - INFO - Sent data to Kafka: key=11, value={"id": "11", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "254 GB", "Screen size": 7.9}}
+2025-03-16 20:20:00,306 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:20:00,306 - INFO - Sent data to Kafka: key=12, value={"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}
+2025-03-16 20:20:00,571 - INFO - Message delivered to sales-data [0]
+2025-03-16 20:20:00,571 - INFO - Sent data to Kafka: key=13, value={"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}
