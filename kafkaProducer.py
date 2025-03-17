@@ -17,8 +17,8 @@ def connecting_to_kafka():
             'bootstrap.servers': 'pkc-619z3.us-east1.gcp.confluent.cloud:9092',
             'security.protocol': 'SASL_SSL',
             'sasl.mechanism': 'PLAIN',
-            'sasl.username': os.getenv("Kafka_Cluster_Key"),
-            'sasl.password': os.getenv("Kafka_Cluster_Secret")
+            'sasl.username': "VQQPMEBGHFUEJBJL",
+            'sasl.password': "OuBjm+YIYB/p846Su/ZQadTHMQCFppc/ve5Y+crraWKw+6hhET9BLitK+kdENLNd"
         }
 
         logging.info("Creating Kafka producer")
@@ -45,7 +45,7 @@ def fetch_data_from_api():
             value = json.dumps(format_response(item))
             
             producer.produce(
-                topic="sales-data",
+                topic="latest_updated_data",
                 key=id,
                 value=value,
                 callback=delivery_report

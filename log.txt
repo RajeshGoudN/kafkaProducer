@@ -65,3 +65,109 @@
 2025-03-16 20:20:00,306 - INFO - Sent data to Kafka: key=12, value={"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}
 2025-03-16 20:20:00,571 - INFO - Message delivered to sales-data [0]
 2025-03-16 20:20:00,571 - INFO - Sent data to Kafka: key=13, value={"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}
+2025-03-17 13:41:18,087 - INFO - Calling Kafka connection method
+2025-03-17 13:41:18,102 - INFO - Defining Confluent configuration
+2025-03-17 13:41:18,102 - INFO - Creating Kafka producer
+2025-03-17 13:41:18,118 - ERROR - Unable to establish connection because KafkaError{code=_INVALID_ARG,val=-186,str="Failed to create producer: sasl.username and sasl.password must be set"}
+2025-03-17 13:41:18,118 - ERROR - Kafka producer is not initialized
+2025-03-17 14:34:27,733 - INFO - Calling Kafka connection method
+2025-03-17 14:34:27,733 - INFO - Defining Confluent configuration
+2025-03-17 14:34:27,733 - INFO - Creating Kafka producer
+2025-03-17 14:34:27,828 - INFO - Kafka producer successfully created
+2025-03-17 14:34:27,828 - INFO - Fetching data from API
+2025-03-17 14:34:38,440 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:38,444 - INFO - Sent data to Kafka: key=1, value={"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}
+2025-03-17 14:34:38,705 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:38,714 - INFO - Sent data to Kafka: key=2, value={"id": "2", "name": "Apple iPhone 12 Mini, 256GB, Blue", "data": null}
+2025-03-17 14:34:38,979 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:38,979 - INFO - Sent data to Kafka: key=3, value={"id": "3", "name": "Apple iPhone 12 Pro Max", "data": {"color": "Cloudy White", "capacity GB": 512}}
+2025-03-17 14:34:39,250 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:39,250 - INFO - Sent data to Kafka: key=4, value={"id": "4", "name": "Apple iPhone 11, 64GB", "data": {"price": 389.99, "color": "Purple"}}
+2025-03-17 14:34:39,518 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:39,518 - INFO - Sent data to Kafka: key=5, value={"id": "5", "name": "Samsung Galaxy Z Fold2", "data": {"price": 689.99, "color": "Brown"}}
+2025-03-17 14:34:39,779 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:39,787 - INFO - Sent data to Kafka: key=6, value={"id": "6", "name": "Apple AirPods", "data": {"generation": "3rd", "price": 120}}
+2025-03-17 14:34:40,342 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:40,357 - INFO - Sent data to Kafka: key=7, value={"id": "7", "name": "Apple MacBook Pro 16", "data": {"year": 2019, "price": 1849.99, "CPU model": "Intel Core i9", "Hard disk size": "1 TB"}}
+2025-03-17 14:34:40,616 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:40,616 - INFO - Sent data to Kafka: key=8, value={"id": "8", "name": "Apple Watch Series 8", "data": {"Strap Colour": "Elderberry", "Case Size": "41mm"}}
+2025-03-17 14:34:41,184 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:41,184 - INFO - Sent data to Kafka: key=9, value={"id": "9", "name": "Beats Studio3 Wireless", "data": {"Color": "Red", "Description": "High-performance wireless noise cancelling headphones"}}
+2025-03-17 14:34:41,452 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:41,452 - INFO - Sent data to Kafka: key=10, value={"id": "10", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "64 GB", "Screen size": 7.9}}
+2025-03-17 14:34:41,720 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:41,720 - INFO - Sent data to Kafka: key=11, value={"id": "11", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "254 GB", "Screen size": 7.9}}
+2025-03-17 14:34:42,023 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:42,023 - INFO - Sent data to Kafka: key=12, value={"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}
+2025-03-17 14:34:42,290 - INFO - Message delivered to sales-data [0]
+2025-03-17 14:34:42,290 - INFO - Sent data to Kafka: key=13, value={"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}
+2025-03-17 14:40:44,717 - INFO - Calling Kafka connection method
+2025-03-17 14:40:44,717 - INFO - Defining Confluent configuration
+2025-03-17 14:40:44,717 - INFO - Creating Kafka producer
+2025-03-17 14:40:44,820 - INFO - Kafka producer successfully created
+2025-03-17 14:40:44,820 - INFO - Fetching data from API
+2025-03-17 14:41:17,365 - ERROR - Message delivery failed: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Broker: Unknown topic or partition"}
+2025-03-17 14:41:17,365 - INFO - Sent data to Kafka: key=1, value={"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}
+2025-03-17 14:41:17,365 - ERROR - Unable to fetch data from API: KafkaError{code=_UNKNOWN_TOPIC,val=-188,str="Unable to produce message: Local: Unknown topic"}
+2025-03-17 14:43:31,448 - INFO - Calling Kafka connection method
+2025-03-17 14:43:31,448 - INFO - Defining Confluent configuration
+2025-03-17 14:43:31,448 - INFO - Creating Kafka producer
+2025-03-17 14:43:31,463 - INFO - Kafka producer successfully created
+2025-03-17 14:43:31,463 - INFO - Fetching data from API
+2025-03-17 14:43:38,903 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:38,903 - INFO - Sent data to Kafka: key=1, value={"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}
+2025-03-17 14:43:39,212 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:39,212 - INFO - Sent data to Kafka: key=2, value={"id": "2", "name": "Apple iPhone 12 Mini, 256GB, Blue", "data": null}
+2025-03-17 14:43:39,479 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:39,479 - INFO - Sent data to Kafka: key=3, value={"id": "3", "name": "Apple iPhone 12 Pro Max", "data": {"color": "Cloudy White", "capacity GB": 512}}
+2025-03-17 14:43:39,748 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:39,748 - INFO - Sent data to Kafka: key=4, value={"id": "4", "name": "Apple iPhone 11, 64GB", "data": {"price": 389.99, "color": "Purple"}}
+2025-03-17 14:43:40,009 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:40,009 - INFO - Sent data to Kafka: key=5, value={"id": "5", "name": "Samsung Galaxy Z Fold2", "data": {"price": 689.99, "color": "Brown"}}
+2025-03-17 14:43:40,310 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:40,310 - INFO - Sent data to Kafka: key=6, value={"id": "6", "name": "Apple AirPods", "data": {"generation": "3rd", "price": 120}}
+2025-03-17 14:43:41,044 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:41,044 - INFO - Sent data to Kafka: key=7, value={"id": "7", "name": "Apple MacBook Pro 16", "data": {"year": 2019, "price": 1849.99, "CPU model": "Intel Core i9", "Hard disk size": "1 TB"}}
+2025-03-17 14:43:41,299 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:41,299 - INFO - Sent data to Kafka: key=8, value={"id": "8", "name": "Apple Watch Series 8", "data": {"Strap Colour": "Elderberry", "Case Size": "41mm"}}
+2025-03-17 14:43:41,880 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:41,880 - INFO - Sent data to Kafka: key=9, value={"id": "9", "name": "Beats Studio3 Wireless", "data": {"Color": "Red", "Description": "High-performance wireless noise cancelling headphones"}}
+2025-03-17 14:43:42,148 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:42,148 - INFO - Sent data to Kafka: key=10, value={"id": "10", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "64 GB", "Screen size": 7.9}}
+2025-03-17 14:43:42,416 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:42,416 - INFO - Sent data to Kafka: key=11, value={"id": "11", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "254 GB", "Screen size": 7.9}}
+2025-03-17 14:43:42,690 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:42,690 - INFO - Sent data to Kafka: key=12, value={"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}
+2025-03-17 14:43:43,079 - INFO - Message delivered to latest-data [0]
+2025-03-17 14:43:43,079 - INFO - Sent data to Kafka: key=13, value={"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}
+2025-03-17 14:52:38,753 - INFO - Calling Kafka connection method
+2025-03-17 14:52:38,753 - INFO - Defining Confluent configuration
+2025-03-17 14:52:38,753 - INFO - Creating Kafka producer
+2025-03-17 14:52:38,770 - INFO - Kafka producer successfully created
+2025-03-17 14:52:38,770 - INFO - Fetching data from API
+2025-03-17 14:52:46,128 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:46,128 - INFO - Sent data to Kafka: key=1, value={"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}
+2025-03-17 14:52:46,380 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:46,380 - INFO - Sent data to Kafka: key=2, value={"id": "2", "name": "Apple iPhone 12 Mini, 256GB, Blue", "data": null}
+2025-03-17 14:52:46,643 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:46,643 - INFO - Sent data to Kafka: key=3, value={"id": "3", "name": "Apple iPhone 12 Pro Max", "data": {"color": "Cloudy White", "capacity GB": 512}}
+2025-03-17 14:52:46,912 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:46,912 - INFO - Sent data to Kafka: key=4, value={"id": "4", "name": "Apple iPhone 11, 64GB", "data": {"price": 389.99, "color": "Purple"}}
+2025-03-17 14:52:47,165 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:47,165 - INFO - Sent data to Kafka: key=5, value={"id": "5", "name": "Samsung Galaxy Z Fold2", "data": {"price": 689.99, "color": "Brown"}}
+2025-03-17 14:52:47,425 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:47,426 - INFO - Sent data to Kafka: key=6, value={"id": "6", "name": "Apple AirPods", "data": {"generation": "3rd", "price": 120}}
+2025-03-17 14:52:47,995 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:47,995 - INFO - Sent data to Kafka: key=7, value={"id": "7", "name": "Apple MacBook Pro 16", "data": {"year": 2019, "price": 1849.99, "CPU model": "Intel Core i9", "Hard disk size": "1 TB"}}
+2025-03-17 14:52:48,250 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:48,257 - INFO - Sent data to Kafka: key=8, value={"id": "8", "name": "Apple Watch Series 8", "data": {"Strap Colour": "Elderberry", "Case Size": "41mm"}}
+2025-03-17 14:52:48,892 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:48,895 - INFO - Sent data to Kafka: key=9, value={"id": "9", "name": "Beats Studio3 Wireless", "data": {"Color": "Red", "Description": "High-performance wireless noise cancelling headphones"}}
+2025-03-17 14:52:49,146 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:49,146 - INFO - Sent data to Kafka: key=10, value={"id": "10", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "64 GB", "Screen size": 7.9}}
+2025-03-17 14:52:49,408 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:49,408 - INFO - Sent data to Kafka: key=11, value={"id": "11", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "254 GB", "Screen size": 7.9}}
+2025-03-17 14:52:49,660 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:49,660 - INFO - Sent data to Kafka: key=12, value={"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}
+2025-03-17 14:52:50,006 - INFO - Message delivered to latest_updated_data [0]
+2025-03-17 14:52:50,006 - INFO - Sent data to Kafka: key=13, value={"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}

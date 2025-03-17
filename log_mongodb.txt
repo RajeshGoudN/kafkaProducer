@@ -1,0 +1,63 @@
+connecting to mongoDB2025-03-17 11:34:19,742-INFO-Establishing_connection_with_mongo
+2025-03-17 11:43:04,455-INFO-Connected to mongo server
+2025-03-17 11:46:54,267-INFO-Connected to mongo server
+2025-03-17 11:46:54,288-ERROR-failed to connect to server
+2025-03-17 11:47:21,530-INFO-Connected to mongo server
+2025-03-17 11:47:21,541-ERROR-failed to connect to server
+2025-03-17 11:48:07,126-INFO-Connected to mongo server
+2025-03-17 11:48:07,137-ERROR-failed to connect to server
+2025-03-17 11:49:59,722-INFO-Connected to mongo server
+2025-03-17 11:49:59,736-ERROR-errors is Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2025-03-17 11:50:51,927-ERROR-failed to connect to server
+2025-03-17 11:55:05,054-INFO-Connected to mongo server
+2025-03-17 11:55:05,068-ERROR-errors is Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2025-03-17 11:56:39,637-INFO-Connected to mongo server
+2025-03-17 11:56:39,648-ERROR-errors is Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2025-03-17 12:16:55,762-INFO-Connected to mongo server
+2025-03-17 15:28:38,533-INFO-Connected to mongo server
+2025-03-17 15:28:38,533-ERROR-failed to connect to server
+2025-03-17 15:28:38,533-INFO-Defining Confluent configuration
+2025-03-17 15:28:38,533-ERROR-Unable to fetch consumer because:'sasl.mechanisms'
+2025-03-17 15:32:04,336 - INFO - Connected to MongoDB server
+2025-03-17 15:32:04,336 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:32:04,385 - INFO - Kafka consumer created successfully
+2025-03-17 15:33:11,192 - INFO - Connected to MongoDB server
+2025-03-17 15:33:11,192 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:33:11,223 - INFO - Kafka consumer created successfully
+2025-03-17 15:37:19,590 - INFO - Connected to MongoDB server
+2025-03-17 15:37:19,590 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:37:19,610 - INFO - Kafka consumer created successfully
+2025-03-17 15:37:33,014 - INFO - Connected to MongoDB server
+2025-03-17 15:37:33,014 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:37:33,037 - INFO - Kafka consumer created successfully
+2025-03-17 15:38:20,872 - INFO - Connected to MongoDB server
+2025-03-17 15:38:20,872 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:38:20,904 - INFO - Kafka consumer created successfully
+2025-03-17 15:38:47,872 - INFO - Connected to MongoDB server
+2025-03-17 15:38:47,872 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:38:47,904 - INFO - Kafka consumer created successfully
+2025-03-17 15:39:24,232 - INFO - Connected to MongoDB server
+2025-03-17 15:39:24,233 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:39:24,253 - INFO - Kafka consumer created successfully
+2025-03-17 15:39:37,978 - INFO - Message received: b'{"id": "1", "name": "Google Pixel 6 Pro", "data": {"color": "Cloudy White", "capacity": "128 GB"}}'
+2025-03-17 15:39:38,035 - INFO - Message received: b'{"id": "2", "name": "Apple iPhone 12 Mini, 256GB, Blue", "data": null}'
+2025-03-17 15:39:38,037 - INFO - Message received: b'{"id": "3", "name": "Apple iPhone 12 Pro Max", "data": {"color": "Cloudy White", "capacity GB": 512}}'
+2025-03-17 15:39:38,038 - INFO - Message received: b'{"id": "4", "name": "Apple iPhone 11, 64GB", "data": {"price": 389.99, "color": "Purple"}}'
+2025-03-17 15:39:38,039 - INFO - Message received: b'{"id": "5", "name": "Samsung Galaxy Z Fold2", "data": {"price": 689.99, "color": "Brown"}}'
+2025-03-17 15:39:38,040 - INFO - Message received: b'{"id": "6", "name": "Apple AirPods", "data": {"generation": "3rd", "price": 120}}'
+2025-03-17 15:39:38,041 - INFO - Message received: b'{"id": "7", "name": "Apple MacBook Pro 16", "data": {"year": 2019, "price": 1849.99, "CPU model": "Intel Core i9", "Hard disk size": "1 TB"}}'
+2025-03-17 15:39:38,042 - INFO - Message received: b'{"id": "8", "name": "Apple Watch Series 8", "data": {"Strap Colour": "Elderberry", "Case Size": "41mm"}}'
+2025-03-17 15:39:38,043 - INFO - Message received: b'{"id": "9", "name": "Beats Studio3 Wireless", "data": {"Color": "Red", "Description": "High-performance wireless noise cancelling headphones"}}'
+2025-03-17 15:39:38,044 - INFO - Message received: b'{"id": "10", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "64 GB", "Screen size": 7.9}}'
+2025-03-17 15:39:38,044 - INFO - Message received: b'{"id": "11", "name": "Apple iPad Mini 5th Gen", "data": {"Capacity": "254 GB", "Screen size": 7.9}}'
+2025-03-17 15:39:38,045 - INFO - Message received: b'{"id": "12", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "419.99", "Capacity": "64 GB"}}'
+2025-03-17 15:39:38,046 - INFO - Message received: b'{"id": "13", "name": "Apple iPad Air", "data": {"Generation": "4th", "Price": "519.99", "Capacity": "256 GB"}}'
+2025-03-17 15:41:14,883 - INFO - Interrupted by user.
+2025-03-17 15:41:30,046 - INFO - Connected to MongoDB server
+2025-03-17 15:41:30,046 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:41:30,062 - INFO - Kafka consumer created successfully
+2025-03-17 15:43:18,958 - INFO - Connected to MongoDB server
+2025-03-17 15:43:18,958 - INFO - Defining Confluent Kafka configuration
+2025-03-17 15:43:18,986 - INFO - Kafka consumer created successfully
+2025-03-17 15:47:50,431 - INFO - Message received: b'{"id":"14","name":"DummyPhone","data":{"Generation":"4th","Price":"519.99","Capacity":"256 GB"}}'
+2025-03-17 15:48:25,723 - INFO - Interrupted by user.
